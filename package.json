@@ -10,11 +10,11 @@
   },
   "devDependencies": {
     "@element-plus/nuxt": "^1.0.4",
+    "@nuxtjs/tailwindcss": "^6.6.7",
     "@types/node": "^18",
     "element-plus": "^2.3.4",
-    "nuxt": "^3.4.3"
-  },
-  "dependencies": {
-    "sass": "^1.62.1"
+    "nuxt": "^3.4.3",
+    "sass": "^1.62.1",
+    "tailwindcss": "^3.3.2"
   }
 }
