@@ -2,23 +2,27 @@
 
 ## Time to live for Toasts
 
-```TOAST_LIFETIME_SECONDS = 10```
+```TOAST_LIFETIME_SECONDS = 10``` (10 seconds)
 
 ## Access Token Expiration
 
 ```ACCESS_TOKEN_EXPIRATION = 60 * 60 * 1``` (1 hour)
 
+## Refresh Token Expiration
+
+```REFRESH_TOKEN_EXPIRATION = 60 * 60 * 1``` (1 hour)
+
 ## Backend API URL
 
-```BACKEND_API_URL = https://api.hentasy.com```
+```BACKEND_API_URL = https://example.com```
 
 ## Storage URL
 
-```STORAGE_URL = https://cdn.hentasy.com```
+```STORAGE_URL = https://example.com```
 
 ## Download Video Advertisement URL
 
-```DOWNLOAD_VIDEO_ADD_URL = https://…```
+```DOWNLOAD_VIDEO_ADD_URL = https://example.com```
 
 ## Download Video Clicks Required
 
@@ -26,11 +30,11 @@
 
 ## Video Details Recommendations Count
 
-```VIDEO_DETAIL_RECOMMENDS_COUNT = 10```
+```VIDEO_DETAIL_RECOMMENDS_COUNT = 6```
 
 ## Video Details Playlists Count
 
-```VIDEO_DETAIL_PLAYLISTS_COUNT = 10```
+```VIDEO_DETAIL_PLAYLISTS_COUNT = 6```
 
 ## Home Cards Page Size
 
@@ -42,10 +46,10 @@
 
 ## Social Links
 
-- Twitter URL: https://twitter.com/
-- Patreon URL: https://www.patreon.com/
-- Discord URL: https://discord.com/
-- Telegram URL: https://telegram.org/
+- Twitter URL: ```TWITTER_URL = https://example.com```
+- Patreon URL: ```PATREON_URL = https://example.com```
+- Discord URL: ```DISCORD_URL = https://example.com```
+- Telegram URL: ```TELEGRAM_URL = https://example.com```
 
 ## SEO for Pages
 
