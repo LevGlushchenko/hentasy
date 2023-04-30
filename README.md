@@ -1,96 +1,42 @@
-# Environment Documentation
+# Nuxt 3 Minimal Starter
 
-## Time to live for Toasts
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-```TOAST_LIFETIME_SECONDS = 10``` (10 seconds)
+## Setup
 
-## Access Token Expiration
+Make sure to install the dependencies:
 
-```ACCESS_TOKEN_EXPIRATION = 60 * 60 * 1``` (1 hour)
+```bash
+# yarn
+yarn install
 
-## Refresh Token Expiration
+# npm
+npm install
 
-```REFRESH_TOKEN_EXPIRATION = 60 * 60 * 1``` (1 hour)
+# pnpm
+pnpm install
+```
 
-## Backend API URL
+## Development Server
 
-```BACKEND_API_URL = https://example.com```
+Start the development server on `http://localhost:3000`
 
-## Storage URL
+```bash
+npm run dev
+```
 
-```STORAGE_URL = https://example.com```
+## Production
 
-## Download Video Advertisement URL
+Build the application for production:
 
-```DOWNLOAD_VIDEO_ADD_URL = https://example.com```
+```bash
+npm run build
+```
 
-## Download Video Clicks Required
+Locally preview production build:
 
-```DOWNLOAD_VIDEO_ADD_CLICKS = 4```
+```bash
+npm run preview
+```
 
-## Video Details Recommendations Count
-
-```VIDEO_DETAIL_RECOMMENDS_COUNT = 6```
-
-## Video Details Playlists Count
-
-```VIDEO_DETAIL_PLAYLISTS_COUNT = 6```
-
-## Home Cards Page Size
-
-```HOME_CARDS_PAGE_SIZE = 15```
-
-## Enable NoRobot Tag
-
-```NO_ROBOT = true``` (enables norobot tag to stop Google bot)
-
-## Social Links
-
-- Twitter URL: ```TWITTER_URL = https://example.com```
-- Patreon URL: ```PATREON_URL = https://example.com```
-- Discord URL: ```DISCORD_URL = https://example.com```
-- Telegram URL: ```TELEGRAM_URL = https://example.com```
-
-## SEO for Pages
-
-- Home Page:
-
-    - Title: `SEO_HOME_TITLE`
-    - Description: `SEO_HOME_DESCRIPTION`
-    - Image: `SEO_HOME_IMAGE`
-
-- Search Page:
-
-    - Title: `SEO_SEARCH_TITLE`
-    - Description: `SEO_SEARCH_DESCRIPTION`
-    - Image: `SEO_SEARCH_IMAGE`
-
-- Channel Page:
-
-    - Title: `SEO_CHANNEL_TITLE`
-    - Description: `SEO_CHANNEL_DESCRIPTION`
-    - Image: `SEO_CHANNEL_IMAGE`
-
-- Rules Page:
-
-    - Title: `SEO_RULES_TITLE`
-    - Description: `SEO_RULES_DESCRIPTION`
-    - Image: `SEO_RULES_IMAGE`
-
-- Profile Page:
-
-    - Title: `SEO_PROFILE_TITLE`
-    - Description: `SEO_PROFILE_DESCRIPTION`
-    - Image: `SEO_PROFILE_IMAGE`
-
-- Login Page:
-
-    - Title: `SEO_LOGIN_TITLE`
-    - Description: `SEO_LOGIN_DESCRIPTION`
-    - Image: `SEO_LOGIN_IMAGE`
-
-- Register Page:
-
-    - Title: `SEO_REGISTER_TITLE`
-    - Description: `SEO_REGISTER_DESCRIPTION`
-    - Image: `SEO_REGISTER_IMAGE`
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
