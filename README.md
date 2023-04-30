@@ -1,48 +1,92 @@
-# fantasy_frontend
+# Environment Documentation
 
-## Supported ENVs:
+## Time to live for Toasts
 
-# время жизни тостов
-TOAST_LIFETIME_SECONDS = 10
-# время жизни access токена, синкать в бэкэндом.
-ACCESS_TOKEN_EXPIRATION = 60 * 60 * 1 -> 1h
-# ссылка на api
-BACKEND_API_URL = https://api.hentasy.com
-# ссылка на сторейдж, будет юзаться для статических картинок
-STORAGE_URL = https://cdn.hentasy.com
-# ссылка на редирект на рекламу при клике на загрузку видео               
-DOWNLOAD_VIDEO_ADD_URL = https://…
-# сколько юзеру нужно будет на нее кликнуть пока он доберется до настоящей ссылки
-DOWNLOAD_VIDEO_ADD_CLICKS = 4
-# сколько видео-рекомендаций выводить на странице видео
-VIDEO_DETAIL_RECOMMENDS_COUNT = 10
-# сколько плейлист-рекомендаций выводить на странице видео
-VIDEO_DETAIL_PLAYLISTS_COUNT = 10
-# обсудим нужно ли, там пагинация на главной специфическая=\
-HOME_CARDS_PAGE_SIZE = 15
-# ставить ли блок на гугл ботов
-NO_ROBOT = true -> enables norobot tag, to stop google bot
-# social
-TWITTER_URL, PATREON_URL, DISCORD_URL, TELEGRAM_URL - с https.
-сео для страниц:
-SEO_HOME_TITLE
-SEO_HOME_DESCRIPTION
-SEO_HOME_IMAGE
-SEO_SEARCH_TITLE
-SEO_SEARCH_DESCRIPTION
-SEO_SEARCH_IMAGE
-SEO_CHANNEL_TITLE
-SEO_CHANNEL_DESCRIPTION
-SEO_CHANNEL_IMAGE
-SEO_RULES_TITLE
-SEO_RULES_DESCRIPTION
-SEO_RULES_IMAGE
-SEO_PROFILE_TITLE
-SEO_PROFILE_DESCRIPTION
-SEO_PROFILE_IMAGE
-SEO_LOGIN_TITLE
-SEO_LOGIN_DESCRIPTION
-SEO_LOGIN_IMAGE
-SEO_REGISTER_TITLE
-SEO_REGISTER_DESCRIPTION
-SEO_REGISTER_IMAGE
+```TOAST_LIFETIME_SECONDS = 10```
+
+## Access Token Expiration
+
+```ACCESS_TOKEN_EXPIRATION = 60 * 60 * 1``` (1 hour)
+
+## Backend API URL
+
+```BACKEND_API_URL = https://api.hentasy.com```
+
+## Storage URL
+
+```STORAGE_URL = https://cdn.hentasy.com```
+
+## Download Video Advertisement URL
+
+```DOWNLOAD_VIDEO_ADD_URL = https://…```
+
+## Download Video Clicks Required
+
+```DOWNLOAD_VIDEO_ADD_CLICKS = 4```
+
+## Video Details Recommendations Count
+
+```VIDEO_DETAIL_RECOMMENDS_COUNT = 10```
+
+## Video Details Playlists Count
+
+```VIDEO_DETAIL_PLAYLISTS_COUNT = 10```
+
+## Home Cards Page Size
+
+```HOME_CARDS_PAGE_SIZE = 15```
+
+## Enable NoRobot Tag
+
+```NO_ROBOT = true``` (enables norobot tag to stop Google bot)
+
+## Social Links
+
+- Twitter URL: https://twitter.com/
+- Patreon URL: https://www.patreon.com/
+- Discord URL: https://discord.com/
+- Telegram URL: https://telegram.org/
+
+## SEO for Pages
+
+- Home Page:
+
+    - Title: `SEO_HOME_TITLE`
+    - Description: `SEO_HOME_DESCRIPTION`
+    - Image: `SEO_HOME_IMAGE`
+
+- Search Page:
+
+    - Title: `SEO_SEARCH_TITLE`
+    - Description: `SEO_SEARCH_DESCRIPTION`
+    - Image: `SEO_SEARCH_IMAGE`
+
+- Channel Page:
+
+    - Title: `SEO_CHANNEL_TITLE`
+    - Description: `SEO_CHANNEL_DESCRIPTION`
+    - Image: `SEO_CHANNEL_IMAGE`
+
+- Rules Page:
+
+    - Title: `SEO_RULES_TITLE`
+    - Description: `SEO_RULES_DESCRIPTION`
+    - Image: `SEO_RULES_IMAGE`
+
+- Profile Page:
+
+    - Title: `SEO_PROFILE_TITLE`
+    - Description: `SEO_PROFILE_DESCRIPTION`
+    - Image: `SEO_PROFILE_IMAGE`
+
+- Login Page:
+
+    - Title: `SEO_LOGIN_TITLE`
+    - Description: `SEO_LOGIN_DESCRIPTION`
+    - Image: `SEO_LOGIN_IMAGE`
+
+- Register Page:
+
+    - Title: `SEO_REGISTER_TITLE`
+    - Description: `SEO_REGISTER_DESCRIPTION`
+    - Image: `SEO_REGISTER_IMAGE`
