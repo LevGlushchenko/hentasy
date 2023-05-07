@@ -1,0 +1,51 @@
+#hentasy {
+  .el-input {
+    input::placeholder {
+      @apply tw-transition-all tw-duration-300;
+    }
+
+    &__wrapper {
+      @apply tw-py-12 tw-px-9 tw-bg-black-300 tw-rounded-4 tw-border tw-border-grey-100 tw-shadow-none tw-transition-all tw-duration-300;
+
+      &:hover {
+        @apply tw-border-primary tw-shadow-none;
+
+        input::placeholder {
+          @apply tw-text-primary;
+        }
+
+        .nuxt-icon {
+          @apply tw-text-primary;
+        }
+
+        .el-input__inner {
+          @apply tw-text-primary;
+        }
+      }
+
+      &.is-focus {
+        @apply tw-border-primary tw-shadow-none;
+
+        input::placeholder {
+          @apply tw-text-primary;
+        }
+
+        .nuxt-icon {
+          @apply tw-text-primary;
+        }
+
+        .el-input__inner {
+          @apply tw-text-primary;
+        }
+      }
+    }
+
+    &__prefix {
+      @apply tw-h-auto;
+    }
+
+    &__inner {
+      @apply tw-h-auto tw-leading-none tw-text-grey;
+    }
+  }
+}

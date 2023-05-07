@@ -1,0 +1,13 @@
+#hentasy {
+  .el-dialog {
+    @apply tw-bg-black-300;
+
+    &__header {
+      @apply tw-p-0;
+    }
+
+    &__body {
+      @apply tw-p-0;
+    }
+  }
+}

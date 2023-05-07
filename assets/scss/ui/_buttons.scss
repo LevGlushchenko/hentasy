@@ -1,0 +1,29 @@
+#hentasy {
+  .el-button {
+    @apply tw-py-10 tw-px-24 tw-h-auto tw-bg-transparent tw-border-primary tw-text-primary tw-font-bold;
+
+    &:hover {
+      @apply tw-bg-transparent tw-text-primary-100;
+
+      .nuxt-icon {
+        @apply tw-text-primary-100;
+      }
+    }
+
+    &--primary {
+      @apply tw-bg-primary tw-text-black-100;
+
+      &:hover {
+        @apply tw-bg-primary tw-text-primary-100;
+
+        .nuxt-icon {
+          @apply tw-text-primary-100;
+        }
+      }
+    }
+
+    &--large {
+      @apply tw-w-full tw-font-semibold tw-text-14;
+    }
+  }
+}
